@@ -22,5 +22,6 @@ app.get("/", (req, res)=>{
     res.render('index');
 });
 
+
 //4. export
 module.exports = { app };

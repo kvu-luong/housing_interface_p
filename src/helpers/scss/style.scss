@@ -336,6 +336,8 @@ ul#my-navbar-js{
     position: relative;
     .note{
         font-size: 11px;
+        margin-top: 25px;
+        padding-bottom: 10px;
     }
 }
 
@@ -457,7 +459,35 @@ footer{
         &:hover{
             color: #0fdc0f;
             font-weight: bold;
+            text-decoration: none;
         }
+    }
+}
+.banner-content{
+    background-color: rgba(15, 15, 15, 0.76);
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2rem;
+    position: relative;
+    padding-left: 25px;
+    transition: ease 0.5s all;
+    .banner-item{
+        display: flex;
+        flex-direction: column; 
+    }
+    &:before{
+        content: "";
+        border-left: 5px solid #adff2f;
+        padding-left: 10px;
+        height: 100%;
+        position: absolute;
+        left: 6px;
+    }
+    p{
+        padding-top: 15px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-bottom: 5px; 
     }
 }
 
