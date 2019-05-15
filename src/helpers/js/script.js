@@ -14,7 +14,6 @@ $(document).ready(function () {
     });
     var slickopts = {
         slidesToShow: 4,
-        slidesToScroll: 4,
         centerMode: true, 
         rows: 2, // Removes the linear order. Would expect card 5 to be on next row, not stacked in groups.
         responsive: [
