@@ -500,3 +500,10 @@ a.dropdown-item:hover {
 li.nav-item.active>a {
     color: #022902 !important;
 }
+
+ul.link-single-project {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2rem;
+    /* list-style: none; */
+}
