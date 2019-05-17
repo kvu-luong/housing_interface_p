@@ -31,4 +31,6 @@ $(document).ready(function () {
       };
       
       $('.carousel').slick(slickopts);
+
+
 });

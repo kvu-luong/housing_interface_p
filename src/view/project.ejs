@@ -22,10 +22,11 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-color container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-color container-fluid">
+            <div class="container">
             <a class="navbar-brand" href="#">
                 <img alt="logo" src="/img/icon.jpg">
             </a>
@@ -119,6 +120,7 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form> -->
             </div>
+            </div>
         </nav>
     </header>
     <div class="slider">
@@ -180,7 +182,7 @@
         <!-- End WOWSlider.com BODY section -->
     </div>
     <div class="separate"></div>
-    <div class="project-infor">
+    <div class="project-infor" id="project-single">
         <div class="container">
             <div class="row title-infor">
                 <h2>Thông Tin</h2>
@@ -220,7 +222,7 @@
             </div>
         </div>
     </div>
-    <div class="benifit">
+    <div class="benifit" id="benifit-single">
         <div class="container">
             <div class="row title-infor">
                 <h2>Tiện Ích</h2>
@@ -256,7 +258,7 @@
             </div>
         </div>
     </div>
-    <div class="customer_infor">
+    <div class="customer_infor" id="customer-single">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6 customer-item">
@@ -266,7 +268,7 @@
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp"
-                                placeholder="Enter email">
+                                placeholder="Email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with
                                 anyone
                                 else.</small>

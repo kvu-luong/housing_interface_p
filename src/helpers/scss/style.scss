@@ -507,3 +507,19 @@ ul.link-single-project {
     line-height: 1.2rem;
     /* list-style: none; */
 }
+header{
+    margin-bottom: 120px !important;
+}
+.zoom{
+    transition: transform 0.2s;
+    &:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+        z-index: 10;
+    }
+}
+
+@media only screen and (max-width: 776px) {
+  //responsive
+}
