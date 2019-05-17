@@ -231,6 +231,7 @@ ul#my-navbar-js{
         h2{
             font-size: 27px;
             color: #fff;
+            text-transform: uppercase;
             &:after{
                 content: '';
                 display: block;
@@ -393,7 +394,7 @@ footer{
   }
   .project_title{
     text-align: center;
-    text-transform: none;
+    text-transform: uppercase;
     color: #000;
     font-size: 27px;
     padding-top: 30px;
@@ -519,7 +520,20 @@ header{
         z-index: 10;
     }
 }
-
+    .title-infor{
+        justify-content: center;
+        h2{
+            text-transform: uppercase;
+            &:after{
+                content: "";
+                display: block;
+                height: 3px;
+                margin: 15px auto 30px;
+                width: 80px;
+                background: #2db34b;
+            }
+        }
+    }
 @media only screen and (max-width: 776px) {
   //responsive
 }
