@@ -21,6 +21,10 @@ app.set("views","./src/view");
 app.get("/", (req, res)=>{
     res.render('index');
 });
+app.get("/project", (req, res)=>{
+    res.render('project');
+});
+
 
 
 //4. export

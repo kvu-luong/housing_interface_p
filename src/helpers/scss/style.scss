@@ -231,6 +231,7 @@ ul#my-navbar-js{
         h2{
             font-size: 27px;
             color: #fff;
+            text-transform: uppercase;
             &:after{
                 content: '';
                 display: block;
@@ -393,7 +394,7 @@ footer{
   }
   .project_title{
     text-align: center;
-    text-transform: none;
+    text-transform: uppercase;
     color: #000;
     font-size: 27px;
     padding-top: 30px;
@@ -499,4 +500,40 @@ a.dropdown-item:hover {
 
 li.nav-item.active>a {
     color: #022902 !important;
+}
+
+ul.link-single-project {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2rem;
+    /* list-style: none; */
+}
+header{
+    margin-bottom: 120px !important;
+}
+.zoom{
+    transition: transform 0.2s;
+    &:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+        z-index: 10;
+    }
+}
+    .title-infor{
+        justify-content: center;
+        h2{
+            text-transform: uppercase;
+            &:after{
+                content: "";
+                display: block;
+                height: 3px;
+                margin: 15px auto 30px;
+                width: 80px;
+                background: #2db34b;
+            }
+        }
+    }
+@media only screen and (max-width: 776px) {
+  //responsive
 }
